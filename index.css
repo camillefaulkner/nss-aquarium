@@ -1,0 +1,84 @@
+body {
+    background-image: url("images/sea.jpeg");
+    background-size: cover;
+    color: lightcyan;
+}
+
+.title {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.fish__image {
+    width: 150px;
+}
+
+.fishcard {
+    background-color: teal;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    color: lightcyan;
+    font-family: monospace;
+    padding: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    color: greenyellow;
+    background-color: blue;
+    border: blue;
+    border-radius: 30px;
+}
+
+.aside {
+    background-color: coral;
+    border: dashed yellow 2px;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 20px;
+}
+
+.fish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fish_aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+.martin {
+    background-color: yellow;
+    color: navy;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.martinpic {
+    width: 300px;
+}
+
+.tipheader {
+    text-align: center;
+    font-size: larger;
+}
+
+.underneath {
+    background-color: purple;
+    text-align: center;
+    border-radius: 60px;
+}
+
